@@ -108,3 +108,9 @@ a:-webkit-any-link {
     margin: 1rem;
     padding: 2rem 2rem; 
 } 
+ /* setting up a 2-column page */
+div {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 4px double #ff00ff;
+}
