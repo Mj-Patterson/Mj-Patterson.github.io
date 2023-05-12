@@ -34,4 +34,9 @@ p {
   font-size: 12pt;
   color: #313335;
 }
-
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
