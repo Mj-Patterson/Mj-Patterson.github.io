@@ -45,27 +45,39 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
 ul {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 12pt;
-  color: #313335;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #313335;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #313335; 
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
-li {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 12pt;
-  color: #313335;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #313335;
 }
 
