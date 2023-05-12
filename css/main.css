@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -33,10 +39,4 @@ p {
   font-weight: normal;
   font-size: 12pt;
   color: #313335;
-}
-@font-face {
-  font-family: 'Roboto';
-  src: url('../font/Roboto-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
