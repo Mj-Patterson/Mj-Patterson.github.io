@@ -93,3 +93,18 @@ a:-webkit-any-link {
     text-decoration-style: initial;
     text-decoration-color: initial;
 }
+.page-element { 
+    width: 100%; 
+} 
+.menu-element { 
+    width: 30%; 
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: right;
+} 
+.content-element { 
+    text-align:left; 
+    width: 65%; 
+    margin: 1rem;
+    padding: 2rem 2rem; 
+} 
