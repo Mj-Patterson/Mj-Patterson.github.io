@@ -105,3 +105,41 @@ body {
   border-right: none;
   border-color: #ffffff;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+}
+H1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22pt;
+  color: #1d44a0;
+}
+H2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18pt;
+  color: #1d44a0;
+}
+H3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+  color: #1d44a0;
+}
+H4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #1d44a0;
+}
+H5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 13pt;
+  color: #1d44a0;
+}
+code-font {
+  font-family: 'Ubuntu Mono', monospace;
+}  
