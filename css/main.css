@@ -1,3 +1,121 @@
+<<<<<<< HEAD
 h3 {
     font-family: "Roboto", "Lucida Console", "Courier New", monospace;
+=======
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22pt;
+  color: #1d44a0;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18pt;
+  color: #1d44a0;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+  color: #1d44a0;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #1d44a0;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 13pt;
+  color: #1d44a0;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 12pt;
+  color: #313335;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #313335;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #313335; 
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #313335;
+}
+
+a:-webkit-any-link {
+    color:  #1d44a0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.page-element { 
+    width: 100%; 
+} 
+.menu-element { 
+    width: 30%; 
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: right;
+} 
+.content-element { 
+    text-align:left; 
+    width: 65%; 
+    margin: 1rem;
+    padding: 2rem 2rem; 
+} 
+ /* setting up a 2-column page */
+div {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 4px double #ff00ff;
+>>>>>>> 8f20c133b2832780ff408f2830475122a8ec6594
 }
