@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-h3 {
-    font-family: "Roboto";
-=======
 @font-face {
   font-family: 'Roboto';
   src: url('../font/Roboto-Regular.ttf') format('truetype');
@@ -116,6 +112,5 @@ a:-webkit-any-link {
 div {
   column-count: 2;
   column-gap: 40px;
-  column-rule: 4px double #ff00ff;
->>>>>>> 8f20c133b2832780ff408f2830475122a8ec6594
+  column-rule: 4px double #ff00ff; 
 }
