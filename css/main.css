@@ -1,6 +1,10 @@
 /* Applies to the entire body of the HTML document (except where overridden by more specific
 selectors). */
 body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;  
+    color: #313335;
+      }
 
 p {
   font-family: 'Roboto', sans-serif;
